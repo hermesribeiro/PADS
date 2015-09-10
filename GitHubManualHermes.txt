@@ -1,0 +1,47 @@
+Dicas do Mestre do Destino para uma boa utilização do GitHub no Atoms
+
+Versão das anotações: Karyco
+
+
+	-	Inserir pasta: 								mkdir "nome da pasta"
+	-	Selecionar a bendita pasta: 				cd ./"nome da pasta" 
+	-	Inicializando o  git: 						git init
+	-	Criar arquivos: 							touch "nome do arquivo"."formato"
+	-	Verificação dos Estatus tudo: 				git status
+	-	Pedir para o git adicionar o arquivo		git add "nome do arquivo"."formato"
+
+Para a identificação de quem está realizando a modificação realizar o procedimeto abaixo
+
+	-	git config --global user.name "nome intelegível a fim de identificar o meliante"
+	-	git config --global user.email "email"
+	
+	
+Realização do commit que gerará as versões dos arquivos desejados, use com sabedoria
+
+	-	git commit -m "COMENTÁRIO PERTINENTE"
+	
+Para a verificação das alterações realizadas realizar os procedimentos a seguir
+
+	-	git diff
+	
+Para voltar para versões anteriores alguns procedimentos podem ser realizados
+
+	"PREZADO MESTRE DO DESTINO ADICIONE UM COMENTÁRIO QUE EXPLIQUE AS DIFERENÇAS DE CADA"
+	
+	-	git checkout -- "nome"."formato"
+	-	git revert "Número hexadecimal"
+	
+Caso seja do interesse do usuário manter a saúde, favor não utilizar o comando reset.
+
+	- Verificação do histórico do arquivo			git log
+
+Para a transferência do arquivo para uma pasta do github realizar o procedimento abaixo
+	
+	-	git remote add origin https://github.com/USUARIO/pasta.git
+	-	SINCRONISAR A PASTA DO COMPUTADOR COM O SITE DO GITHUB: 	git pull origin master 
+	
+	
+	O comando abaixo evidencia as opções de transporte 
+	-	git remote -V  
+	- 	git remote push ./"programa"
+	
